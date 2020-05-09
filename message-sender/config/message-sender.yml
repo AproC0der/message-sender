@@ -1,0 +1,28 @@
+# redis:
+#   addr: "139.159.153.87:6379"
+#   pass: "!mh123321"
+#   idle: 5
+#   db: 0
+#   timeout:
+#     conn: 500
+#     read: 3000
+#     write: 3000
+ redis:
+  addr: "127.0.0.1:6379"
+  pass: ""
+  idle: 5
+  db: 0
+  timeout:
+    conn: 500
+    read: 3000
+    write: 3000
+ consumer:
+  queue: "/n9e/sender/sms"
+  worker: 10
+ url:
+  ip: "123.56.179.37"
+  port: "999"
+  corpid: "LKSDK00240"
+  pwd: "521403"
+
+
